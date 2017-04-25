@@ -1,0 +1,49 @@
+entries:
+- title: ground_sidebar
+  product: Ground
+  version: 0.1
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+
+    - title: Getting Started
+      url: /getting_started.html
+      output: web
+
+    - title: Architecture
+      url: /architecture.html
+      output: web
+
+    - title: Motivation
+      url: /motivation.html
+      output: web
+
+    - title: Metamodel
+      url: /metamodel.html
+      output: web
+  
+  - title: Documentation
+    output: web
+    folderitems:
+      
+      - title: API Documentation
+        external_url: "http://www.ground-context.org/docs/api"
+        output: web
+
+  - title: Contributing
+    output: web
+    folderitems:
+
+      - title: JIRA
+        external_url: "https://ground.atlassian.net/projects/GROUND/issues"
+        output: web
+
+      - title: Contribution Guidelines
+        url: /contribution.html
+        output: web
+
+      - title: Development Enviroment
+        url: /environment.html
+        output: web
