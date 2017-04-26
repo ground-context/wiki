@@ -1,6 +1,10 @@
 ---
-title: Ground Data Context Services
+title: Hit the Ground Running
+keywords: getting_started
 sidebar: ground_sidebar
 permalink: index.html
-summary: An introduction to Ground.
+folder: overview
 ---
+
+Check back soon! We're close to releasing a v0.1, and we'll have more here then.
+

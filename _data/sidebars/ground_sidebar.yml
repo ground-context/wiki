@@ -1,7 +1,5 @@
 entries:
 - title: ground_sidebar
-  product: Ground
-  version: 0.1
   folders:
 
   - title: Overview
@@ -9,7 +7,7 @@ entries:
     folderitems:
 
     - title: Getting Started
-      url: /getting_started.html
+      url: /index.html
       output: web
 
     - title: Architecture
