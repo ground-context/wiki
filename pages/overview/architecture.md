@@ -9,7 +9,7 @@ folder: overview
 Ground has three main components: the *Common Ground* metamodel, *Underground* applications that support Ground, and *Aboveground* applications that consume data context from Ground.
 The existing service is composed of the APIs exposed by Common Ground and integrations with some underground services.
 
-<img src="../../images/Ground Architecture.png" alt="Ground" width="25%" /><br/>
+<img src="images/Ground Architecture.png" alt="Ground" width="25%" /><br/>
 
 ## Common Ground
 

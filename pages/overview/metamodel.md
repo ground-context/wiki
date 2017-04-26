@@ -9,7 +9,7 @@ folder: overview
 Ground is designed to manage both the ABCs of data context (defined in the [motivation](motivation.html) section) and the design requirements of data context services. 
 The Common Ground metamodel is based on a layered graph structure shown here: one layer for each of the ABCs of data context. 
 
-<img src="../../images/Metamodel.png" alt="Ground" width="25%" /><br/>
+<img src="images/Metamodel.png" alt="Ground" width="25%" /><br/>
 
 ## Version Graphs
 We begin with the version graph layer of Common Ground, which captures changes corresponding to the C in the ABCs of data context. 
