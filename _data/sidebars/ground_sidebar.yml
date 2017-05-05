@@ -25,6 +25,10 @@ entries:
   - title: Documentation
     output: web
     folderitems:
+
+      - title: Using Ground
+        url: /usage.html
+        output: web
       
       - title: API Documentation
         external_url: "http://www.ground-context.org/docs/api"
