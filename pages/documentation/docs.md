@@ -36,9 +36,9 @@ folder: documentation
   * Required Fields: `graphId`, `edgeVersionIds`
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`
 
-`GET /graphs/{sourceKey}`: Retrieve an Graph.
+`GET /graphs/{sourceKey}`: Retrieve a Graph.
 
-`GET /versions/graphs/{id}`: Retrieve an Graph Version.
+`GET /versions/graphs/{id}`: Retrieve a Graph Version.
 
 ### Nodes
 
@@ -52,9 +52,9 @@ folder: documentation
   * Required Fields: `nodeId`, `fromNodeVersionStartId`, `toNodeVersionStartid`, 
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`, `toNodeVersionStartId`, `toNodeVersionEndId`
 
-`GET /nodes/{sourceKey}`: Retrieve an Node.
+`GET /nodes/{sourceKey}`: Retrieve a Node.
 
-`POST /versions/nodes/{id}`: Retrieve an Node Version.
+`POST /versions/nodes/{id}`: Retrieve a Node Version.
 
 ### Structures
 
@@ -67,9 +67,9 @@ folder: documentation
 
   * Required Fields: `structureId` `attributes`
 
-`GET /structures/{sourceKey}`: Retrieve an Structure.
+`GET /structures/{sourceKey}`: Retrieve a Structure.
 
-`POST /versions/structures/{id}`: Retrieve an Structure Version.
+`POST /versions/structures/{id}`: Retrieve a Structure Version.
 
 ## Behavior
 
@@ -101,7 +101,7 @@ folder: documentation
   * Required Fields: `lineageGraphId`, `lineageEdgeVersionIds`
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`
 
-`GET /lineage_graphs/{sourceKey}`: Retrieve an Lineage Graph.
+`GET /lineage_graphs/{sourceKey}`: Retrieve a Lineage Graph.
 
-`POST /versions/lineage_graphs/{id}`: Retrieve an Lineage Graph Version.
+`POST /versions/lineage_graphs/{id}`: Retrieve a Lineage Graph Version.
 
