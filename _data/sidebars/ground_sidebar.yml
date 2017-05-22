@@ -7,19 +7,19 @@ entries:
     folderitems:
 
     - title: Getting Started
-      url: /index.html
+      url: /index
       output: web
 
     - title: Architecture
-      url: /architecture.html
+      url: /architecture
       output: web
 
     - title: Motivation
-      url: /motivation.html
+      url: /motivation
       output: web
 
     - title: Metamodel
-      url: /metamodel.html
+      url: /metamodel
       output: web
   
   - title: Documentation
@@ -27,11 +27,11 @@ entries:
     folderitems:
 
       - title: Using Ground
-        url: /usage.html
+        url: /usage
         output: web
       
       - title: API Documentation
-        external_url: "http://www.ground-context.org/docs/api"
+        url: /docs
         output: web
 
   - title: Contributing
@@ -43,9 +43,9 @@ entries:
         output: web
 
       - title: Contribution Guidelines
-        url: /contribution.html
+        url: /contribution
         output: web
 
       - title: Development Enviroment
-        url: /environment.html
+        url: /environment
         output: web
