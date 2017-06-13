@@ -17,8 +17,8 @@ folder: documentation
 
 `POST /version/{sourceKey}/edges`: Creates a new Edge Version in the edge provided by `sourceKey`.
 
-  * Required Fields: `edgeId`, `fromNodeVersionStartId`, `toNodeVersionStartid`, 
-  * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`, `toNodeVersionStartId`, `toNodeVersionEndId`
+  * Required Fields: `edgeId`, `fromNodeVersionStartId`, `toNodeVersionStartId`, 
+  * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`, `fromNodeVersionEndId`, `toNodeVersionEndId`
 
 `GET /edges/{sourceKey}`: Retrieve an Edge.
 
@@ -47,14 +47,14 @@ folder: documentation
   * Required Fields: `sourceKey`
   * Optional Fields: `name`
 
-`POST /version/{sourceKey}/nodes`: Creates a new Node Version in the node provided by `sourceKey`.
+`POST /versions/{sourceKey}/nodes`: Creates a new Node Version in the node provided by `sourceKey`.
 
-  * Required Fields: `nodeId`, `fromNodeVersionStartId`, `toNodeVersionStartid`, 
-  * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`, `toNodeVersionStartId`, `toNodeVersionEndId`
+  * Required Fields: `nodeId`.
+  * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`.
 
 `GET /nodes/{sourceKey}`: Retrieve a Node.
 
-`POST /versions/nodes/{id}`: Retrieve a Node Version.
+`GET /versions/nodes/{id}`: Retrieve a Node Version.
 
 ### Structures
 
