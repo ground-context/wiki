@@ -27,9 +27,44 @@ int managerId = client.createNode("manager");
 int engineerId = client.createNode("engineer");
 
 int managerVersionId = client.createNodeVersion("manager", managerTags); 
-// tags: {"name": "a-manager", "age": 30, "department": "engineering"}
+/* managerTags: {
+      "name": {
+          "key": "name", 
+          "value": "a-manager", 
+          "type": "string"
+      },
+      "age": {
+          "key": "age", 
+          "value": 30, 
+          "type": "integer"
+      }, 
+      "department": {
+          "key": "department", 
+          "value": "engineering", 
+          "type": "string"
+      }
+  }
+*/
+
 int engineerVersionId = client.createNodeVersion("engineer", engineerTags); 
-// tags: {"name": "an-engineer", "age": 25, "department": "engineering"}
+/* engineerTags: {
+      "name": {
+          "key": "name", 
+          "value": "an-engineer", 
+          "type": "string"
+      },
+      "age": {
+          "key": "age", 
+          "value": 25, 
+          "type": "integer"
+      }, 
+      "department": {
+          "key": "department", 
+          "value": "engineering", 
+          "type": "string"
+      }
+  }
+*/
 
 client.createEdge("managerManagerEngineer", managerId, engineerId);
 clinet.createEdgeVersion("managerManagesEngineer", managerVersionId, engineerVersionId);
