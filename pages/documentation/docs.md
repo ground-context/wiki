@@ -15,9 +15,9 @@ folder: documentation
   * Required Fields: `sourceKey`, `fromNodeId`, `toNodeId`
   * Optional Fields: `name`
 
-`POST /versions/{sourceKey}/edges`: Creates a new Edge Version in the edge provided by `sourceKey`.
+`POST /versions/edges`: Creates a new Edge Version in the edge provided by `edgeId`.
 
-  * Required Fields: `edgeId`, `fromNodeVersionStartId`, `toNodeVersionStartId`, 
+  * Required Fields: `edgeId`, `toNodeVersionStartId`, 
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`, `fromNodeVersionEndId`, `toNodeVersionEndId`
 
 `GET /edges/{sourceKey}`: Retrieve an Edge.
@@ -31,7 +31,7 @@ folder: documentation
   * Required Fields: `sourceKey`
   * Optional Fields: `name`
 
-`POST /versions/{sourceKey}/graphs`: Creates a new Graph Version in the graph provided by `sourceKey`.
+`POST /versions/graphs`: Creates a new Graph Version in the graph provided by `graphId`.
 
   * Required Fields: `graphId`, `edgeVersionIds`
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`
@@ -47,9 +47,9 @@ folder: documentation
   * Required Fields: `sourceKey`
   * Optional Fields: `name`
 
-`POST /versions/{sourceKey}/nodes`: Creates a new Node Version in the node provided by `sourceKey`.
+`POST /versions/nodes`: Creates a new Node Version in the node provided by `nodeId`.
 
-  * Required Fields: `nodeId`.
+  * Required Fields: `nodeId`
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`.
 
 `GET /nodes/{sourceKey}`: Retrieve a Node.
@@ -63,9 +63,9 @@ folder: documentation
   * Required Fields: `sourceKey`
   * Optional Fields: `name`
 
-`POST /versions/{sourceKey}/structures`: Creates a Structure Version in the structure provided by `sourceKey`.
+`POST /versions/structures`: Creates a Structure Version in the structure provided by `structureId`.
 
-  * Required Fields: `structureId` `attributes`
+  * Required Fields: `structureId`, `attributes`
 
 `GET /structures/{sourceKey}`: Retrieve a Structure.
 
@@ -80,9 +80,9 @@ folder: documentation
   * Required Fields: `sourceKey`
   * Optional Fields: `name`
 
-`POST /versions/{sourceKey}/lineage_edges`: Creates a new Lineage Edge Version in the edge provided by `sourceKey`.
+`POST /versions/lineage_edges`: Creates a new Lineage Edge Version in the lineage edge provided by `lineageEdgeId`.
 
-  * Required Fields: `edgeId`, `fromRichVersionId`, `toRichVersionid`, 
+  * Required Fields: `lineageEdgeId`, `fromRichVersionId`, `toRichVersionid`, 
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`
 
 `GET /edges/{sourceKey}`: Retrieve a Lineage Edge.
@@ -96,7 +96,7 @@ folder: documentation
   * Required Fields: `sourceKey`
   * Optional Fields: `name`
 
-`POST /versions/{sourceKey}/lineage_graphs`: Creates a new Lineage Graph Version in the lineage graph provided by `sourceKey`.
+`POST /versions/lineage_graphs`: Creates a new Lineage Graph Version in the lineage graph provided by `lineageGraphId`.
 
   * Required Fields: `lineageGraphId`, `lineageEdgeVersionIds`
   * Optional Fields: `tags`, `structureVersionId`, `reference`, `referenceParameters`
