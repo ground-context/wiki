@@ -88,7 +88,7 @@ folder: documentation
 
 `GET /nodes/{sourceKey}/latest`: Retrieve the most recent versions (i.e., any version without a child) of this node.
   
-  * Client API method: `getNodeLatestVersion(sourceKey)`
+  * Client API method: `getNodeLatestVersions(sourceKey)`
 
 `GET /nodes/{sourceKey}/history`: Retrieve all the parent-child relationships of this node.
   
