@@ -36,7 +36,7 @@ folder: documentation
 
 `GET /versions/edges/{id}`: Retrieve an Edge Version.
   
-  * Client API method: `getEdgeVersio(id)`
+  * Client API method: `getEdgeVersion(id)`
 
 ### Graphs
 
