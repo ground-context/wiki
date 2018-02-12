@@ -14,7 +14,7 @@ folder: documentation
 
   * Required Fields: `sourceKey`, `fromNodeId`, `toNodeId`
   * Optional Fields: `name`, `tags`
-  * Client API method: `createEdge(sourceKey, name, fromNodeId, toNodeId, tags)`
+  * Client API method: `createEdge(sourceKey, fromNodeId, toNodeId, name, tags)`
 
 `POST /versions/edges`: Creates a new Edge Version in the edge provided by `edgeId`.
 
